@@ -14,5 +14,6 @@ func main() {
 		log.Fatal("Invalid account credentials")
 	}
 
+	// TODO: This function will freeze the CLI
 	menu.ConstructMenu("main")
 }
