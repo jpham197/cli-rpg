@@ -1,9 +1,9 @@
 package monster
 
 import (
-	"clirpg/main/creatures/monster"
+	creature "clirpg/main/creatures"
 )
 
 type Monster struct {
-	Creature
+	creature.Creature
 }
